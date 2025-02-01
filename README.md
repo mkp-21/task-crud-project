@@ -32,12 +32,15 @@ This is the frontend of the User CRUD application built using React. It interact
 1. Clone the repository:
 
    ```bash
-  example: git clone https://github.com/your-username/project-name.git
+
    git clone https://github.com/mkp-21/task-crud-project.git
 
-   Navigate to the user-crud directory:
+   ## Navigate to the user-crud directory:
    npm install
-   run :npm start
+   ## run 
+   npm start
+
+   This will run the app on http://localhost:3000.
 
    
 
