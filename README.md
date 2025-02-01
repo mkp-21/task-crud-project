@@ -11,38 +11,37 @@ The backend of this project provides a RESTful API built with PHP that allows fo
 
 ### **Database Setup**
 
-The backend uses a MySQL database named `user_crud`. 
+The backend uses a MySQL database named `user_crud`.
 
-To set up the database:
+#### Steps to Set Up the Database:
 
- Create a database named `user_crud`.
-  Use the following SQL schema to create the `users` table
+1. **Create the database**: Open your MySQL client (e.g., phpMyAdmin) and create a database named `user_crud`.
 
-# React Frontend for User CRUD Application
+2. **Import the SQL file**:
 
-## Project Description
-This is the frontend of the User CRUD application built using React. It interacts with the backend API, which performs CRUD operations on user data. The frontend provides a user-friendly interface to add, view, update, and delete users.
+   Navigate to the `sql` directory in the project and import the `user_crud.sql` file into your MySQL database. This file contains the SQL schema to create the `users` table.
 
-## Prerequisites
-- Node.js installed on your machine.
-- A running backend API (PHP) connected to a MySQL database.
+  ### Step 1: Clone the repository
 
-## Installation
+To get started with the project, clone the repository to your local machine using the following command:
 
-1. Clone the repository:
+```bash
+git clone https://github.com/mkp-21/task-crud-project.git
+### Step 2: Install dependencies
 
-   ```bash
+After cloning the repository, navigate to the React frontend directory and install the required dependencies using npm:
 
-   git clone https://github.com/mkp-21/task-crud-project.git
+```bash
+cd task-crud-project/user-crud   # Navigate to the React frontend directory
+npm install                      # Install the required Node.js dependencies
+### Step 3: Start the React development server
 
-   ## Navigate to the user-crud directory:
-   npm install
-   ## run 
-   npm start
+After installing the dependencies, you can start the React frontend application by running:
 
-   This will run the app on http://localhost:3000.
+```bash
+npm start  # This will start the React development server
 
-   
+ 
 
 
 
