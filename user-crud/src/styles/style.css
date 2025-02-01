@@ -1,0 +1,132 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* User List */
+  .user-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-list th, .user-list td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .user-list th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .user-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-list button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-list button:hover {
+    background-color: darkred;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    margin: 10px 0 5px;
+  }
+  
+  .form-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .form-container button:hover {
+    background-color: #218838;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .navbar ul {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .user-list table {
+      font-size: 14px;
+    }
+  
+    .form-container {
+      width: 90%;
+    }
+  }
+  
